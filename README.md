@@ -1,58 +1,7 @@
-# PMX_Simulations repository by PMXSolutions.com
+![](https://shiny-app-store3.s3.amazonaws.com/approvedapp/s063_0RK2qp1mgR1jfHksHy5o0FkhOF1iy8r1UmEjPT9E_logo_356.jpg)
 
-<p align="center">
-<img src="./www/PMXSim.png" width="200" height="200">
-</p>
+# PMXsim: Simulate and Explore Pharmacokinetic Profiles
 
-This Shiny application was created to assist in the simulation of pharmacokinetic profiles and the exploration of different dosing regimens.
+#### Use app online: __[www.shinyappstore.com/a/PMXsim](https://shinyappstore.com/a/PMXsim)__
 
-The latest version of this repository is being hosted on pmxsolutions.com and visible on:
-https://io.pmxsolutions.com/link_external.php?link=1
-
-Due to the great functionality and ease-of-use, all simulations were based on mrgsolve. 
-
-<p align="center">
-<img src="./www/Shiny_Output.PNG">
-</p>
-
-
-
-
-## Run application
-Download, clone, or fork this repository to use the R code within your local R installation. 
-
-Furthermore, the runGitHub command from the Shiny package can be used to immediately execute the latest version from within R:
-
-`library(shiny)`
-
-`runGitHub("PMX_Simulations", "michielve")`
-
-
-## Add user table
-The user can upload a dataset to the shiny application to be included in the PK profile. The requirements of this dataset is that it should include a DOSE column to match the colors with the simulated profiles.
-
-An example can be found below and in the example folder:
-
-| ID | TIME | CONCENTRATION | DOSE |
-| :--: | :--: | :--: | :--: |
-| 1  | 0    | 0 | 100 |
-| 1  | 1 | 8 | 100|
-| 1  | 2 | 13 | 100|
-| 1  | 4 | 4 | 100|
-| 2  | 0 | 0 | 100|
-| 2  | 1 | 7 | 100|
-| 2  | 2 | 10 | 100|
-| 2  | 4 | 6 | 100|
-
-
-## Required software
-Make sure mrgsolve is installed and working on your computer:
-https://github.com/metrumresearchgroup/mrgsolve/wiki/mrgsolve-Installation
-
-In order to create the pdf report, make sure that you can knit documents. MiKTeX can be installed to enable this:
-https://miktex.org/download
-
-
-## Contribute
-Feel free to use and improve this repository to include additional functionality. Report bugs in the issues section of this repository.
-
+PMXsim is a versatile application designed to facilitate the simulation of pharmacokinetic (PK) profiles and explore diverse dosing regimens. With PMXsim, users can easily upload datasets that include key columns for DOSE and concentration, essential for matching colors with the simulated profiles. Pharmacokinetics encompasses the study of how the body processes drugs, focusing on their absorption, distribution, metabolism, and elimination (ADME). In the realm of PK, numerous parameters play pivotal roles in defining a drug's profile. These include the drug's clearance rate, volume of distribution, half-life, area under the concentration-time curve (AUC), and peak concentration (Cmax). Understanding and manipulating these parameters is essential for optimizing drug dosing regimens and predicting their effectiveness in clinical scenarios. PMXsim empowers users to explore these vital PK parameters and their impact on drug profiles, contributing to improved therapeutic decision-making.
